@@ -1,0 +1,32 @@
+{
+  "general": {
+    "projectName": "El-MohandZ-khana",
+    "bio": "بيت الهندسة المصري..."
+  },
+
+  "navbar": {
+    "Home": "الرئيسية",
+    "ContactUs": "تواصل معنا"
+  },
+
+  "footer": {
+    "header": "معلومات الاتصال",
+    "contactData": {
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "mail": "البريد الإلكتروني",
+      "address1": "بيت الهندسة المصري...",
+      "phone1": "+20100000000",
+      "mail1": "info{'@'}site.come"
+    },
+    "bio": "بيت الهندسة المصري...",
+    "socialMedia": {
+      "faceBook": "فيسبوك",
+      "twitter": "تويتر",
+      "linkedIn": "لينكيدان",
+      "whatsApp": "واتساب",
+      "youTube": "يوتيوب"
+    },
+    "copyRight": "© جميع الحقوق محفوظة لـ @:general.projectName - 2024 ، تصميم وتطوير @:general.projectName"
+  }
+}

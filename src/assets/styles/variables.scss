@@ -1,0 +1,27 @@
+html.app-is-ltr {
+  --direction: ltr;
+  --text-align: left;
+  --font-family: Cairo;
+}
+
+html,
+html.app-is-rtl {
+  --direction: rtl;
+  --text-align: right;
+  --font-family: Cairo;
+}
+
+:root {
+  --app-body-padding-top: 100px;
+  --footer-height: 60px;
+  --app-body-height: calc(
+    100vh - var(--app-body-padding-top) - var(--footer-height)
+  );
+  --app-navbar-z-index: 100;
+  --section-min-height: 100vh;
+}
+
+$max-width-larg: 1200px;
+$max-width-labtop: 992px;
+$max-width-tablet: 768px;
+$max-width-mobile: 600px;

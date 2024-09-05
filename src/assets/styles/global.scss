@@ -1,0 +1,29 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.35;
+  direction: var(--direction);
+  text-align: var(--text-align);
+}
+
+.ltr {
+  direction: ltr;
+}
+.rtl {
+  direction: rtl;
+}
+html.app-is-rtl {
+  .phone-number {
+    direction: ltr;
+    font-family: ArabicNumber;
+  }
+}

@@ -1,0 +1,37 @@
+// #region schema
+$accentColor: #00e676;
+$secondaryColor: #ff5722;
+// #endregion schema
+
+:root {
+  --color-accent: #00e67799;
+  --color-secondary: #ff5722;
+}
+
+html.light-theme {
+  // #region light
+  --color-accent1: #00e676;
+  --color-accent2: #003a1e;
+  --color-accent3: #001d0f;
+  --color-accent4: #000000;
+  --color-secondary1: #ff815a;
+  --color-secondar2: #ffab91;
+  --color-secondar3: #ffeae4;
+  --color-secondar4: #ffffff;
+  // #endregion light
+}
+
+html,
+html.dark-theme {
+  // #region dark
+  --color-accent1: #03371e;
+  --color-accent2: #094026;
+  --color-accent3: #353535;
+  --color-accent4: #000000;
+  --color-secondary1: #743522;
+  --color-secondar2: #692c19;
+  --color-secondar3: #7e2208;
+  --color-secondar4: #ffffff;
+  // #endregion dark
+}
+// #endregion set-up-theme
